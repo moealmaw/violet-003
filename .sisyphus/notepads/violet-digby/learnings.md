@@ -38,3 +38,6 @@ Created: 2026-04-30 15:38:05 BST
 
 - Pages now use `bg-background text-foreground` and `data-testid="page-content"` wrappers so the root layout can keep the single `main` landmark.
 - Theme switching relies on CSS variables from `globals.css`; page-level hardcoded neutral/stone colors were removed.
+Created: 2026-05-02 16:43:27 BST
+
+- vinext deploy for App Router needs `cloudflare({ viteEnvironment: { name: "rsc", childEnvironments: ["ssr"] } })` in `vite.config.ts`.
