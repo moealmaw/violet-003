@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "lint": "eslint",
-        "dev": "vinext dev --port 5050",
+        "dev": "vinext dev --port 5051",
         "build": "vinext build",
         "start": "vinext start"
     },

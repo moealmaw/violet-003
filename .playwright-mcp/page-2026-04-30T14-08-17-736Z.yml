@@ -1,0 +1,235 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Violet" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "Life" [ref=e8] [cursor=pointer]:
+          - /url: /life
+        - link "Gallery" [ref=e9] [cursor=pointer]:
+          - /url: /gallery
+        - link "World" [ref=e10] [cursor=pointer]:
+          - /url: /world
+        - link "Exhibitions" [ref=e11] [cursor=pointer]:
+          - /url: /exhibitions
+        - link "Archive" [ref=e12] [cursor=pointer]:
+          - /url: /archive
+        - button "Light" [ref=e13]
+  - main [ref=e14]:
+    - main [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: Exhibitions
+          - heading "Record of exhibitions" [level=1] [ref=e19]
+          - paragraph [ref=e20]: A chronological archive of public showings from 1946 to 2016.
+        - generic [ref=e23]:
+          - article [ref=e24]:
+            - generic [ref=e26]:
+              - generic [ref=e27]:
+                - generic [ref=e28]:
+                  - generic [ref=e29]: 1946–1960
+                  - generic [ref=e30]: Major
+                - heading "St Ives Society of Artists (StISA) exhibitions" [level=2] [ref=e31]
+              - generic [ref=e32]:
+                - paragraph [ref=e33]: St Ives Society of Artists
+                - paragraph [ref=e34]: St Ives
+          - article [ref=e35]:
+            - generic [ref=e37]:
+              - generic [ref=e38]:
+                - generic [ref=e40]: "1950"
+                - heading "Royal Institute of Oil Painters" [level=2] [ref=e41]
+              - generic [ref=e42]:
+                - paragraph [ref=e43]: Royal Institute of Oil Painters
+                - paragraph [ref=e44]: London
+            - paragraph [ref=e45]: "Works shown: 1 piece"
+          - article [ref=e46]:
+            - generic [ref=e48]:
+              - generic [ref=e49]:
+                - generic [ref=e50]:
+                  - generic [ref=e51]: "1950"
+                  - generic [ref=e52]: Major
+                - heading "Paris Salon (Société des Artistes Français)" [level=2] [ref=e53]
+              - generic [ref=e54]:
+                - paragraph [ref=e55]: Paris Salon
+                - paragraph [ref=e56]: Paris
+            - paragraph [ref=e57]: "Works shown: accepted"
+          - article [ref=e58]:
+            - generic [ref=e60]:
+              - generic [ref=e61]:
+                - generic [ref=e62]:
+                  - generic [ref=e63]: "1951"
+                  - generic [ref=e64]: Major
+                - heading "StISA Festival of Britain Exhibition" [level=2] [ref=e65]
+              - generic [ref=e66]:
+                - paragraph [ref=e67]: St Ives Society of Artists
+                - paragraph [ref=e68]: Touring exhibition
+            - paragraph [ref=e69]: "Works shown: toured May–September"
+          - article [ref=e70]:
+            - generic [ref=e72]:
+              - generic [ref=e73]:
+                - generic [ref=e75]: "1951"
+                - heading "Royal Institute of Oil Painters" [level=2] [ref=e76]
+              - generic [ref=e77]:
+                - paragraph [ref=e78]: Royal Institute of Oil Painters
+                - paragraph [ref=e79]: London
+            - paragraph [ref=e80]: "Works shown: 3 pieces"
+          - article [ref=e81]:
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e86]: "1951"
+                - heading "Joint exhibition with Simon Digby" [level=2] [ref=e87]
+              - generic [ref=e88]:
+                - paragraph [ref=e89]: Piazza Studios
+                - paragraph [ref=e90]: St Ives
+          - article [ref=e91]:
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - generic [ref=e96]: "1951"
+                - heading "The Pastel Society" [level=2] [ref=e97]
+              - generic [ref=e98]:
+                - paragraph [ref=e99]: The Pastel Society
+                - paragraph [ref=e100]: Toured northern England
+            - paragraph [ref=e101]: "Works shown: 3 pieces"
+          - article [ref=e102]:
+            - generic [ref=e104]:
+              - generic [ref=e105]:
+                - generic [ref=e107]: "1951"
+                - heading "Paris Salon (Société des Artistes Français)" [level=2] [ref=e108]
+              - generic [ref=e109]:
+                - paragraph [ref=e110]: Paris Salon
+                - paragraph [ref=e111]: Paris
+            - paragraph [ref=e112]: "Works shown: accepted"
+          - article [ref=e113]:
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - generic [ref=e118]: "1952"
+                - heading "The Pastel Society" [level=2] [ref=e119]
+              - generic [ref=e120]:
+                - paragraph [ref=e121]: The Pastel Society
+                - paragraph [ref=e122]: United Kingdom
+            - paragraph [ref=e123]: "Works shown: 4 pieces"
+          - article [ref=e124]:
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - generic [ref=e129]: "1952"
+                - heading "Paris Salon (Société des Artistes Français)" [level=2] [ref=e130]
+              - generic [ref=e131]:
+                - paragraph [ref=e132]: Paris Salon
+                - paragraph [ref=e133]: Paris
+            - paragraph [ref=e134]: "Works shown: accepted"
+          - article [ref=e135]:
+            - generic [ref=e137]:
+              - generic [ref=e138]:
+                - generic [ref=e140]: "1953"
+                - heading "Joint exhibition with Serbjeet Singh" [level=2] [ref=e141]
+              - generic [ref=e142]:
+                - paragraph [ref=e143]: Delhi
+                - paragraph [ref=e144]: Delhi
+          - article [ref=e145]:
+            - generic [ref=e147]:
+              - generic [ref=e148]:
+                - generic [ref=e150]: "1953"
+                - heading "The Pastel Society" [level=2] [ref=e151]
+              - generic [ref=e152]:
+                - paragraph [ref=e153]: The Pastel Society
+                - paragraph [ref=e154]: United Kingdom
+            - paragraph [ref=e155]: "Works shown: 1 piece"
+          - article [ref=e156]:
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - generic [ref=e161]: "1953"
+                  - generic [ref=e162]: Major
+                - heading "Kashmir magazine covers" [level=2] [ref=e163]
+              - generic [ref=e164]:
+                - paragraph [ref=e165]: Kashmir magazine
+                - paragraph [ref=e166]: Kashmir
+            - paragraph [ref=e167]: "Works shown: March 1953, June 1953"
+          - article [ref=e168]:
+            - generic [ref=e170]:
+              - generic [ref=e171]:
+                - generic [ref=e173]: "1953"
+                - heading "Paris Salon (Société des Artistes Français)" [level=2] [ref=e174]
+              - generic [ref=e175]:
+                - paragraph [ref=e176]: Paris Salon
+                - paragraph [ref=e177]: Paris
+            - paragraph [ref=e178]: "Works shown: accepted"
+          - article [ref=e179]:
+            - generic [ref=e181]:
+              - generic [ref=e182]:
+                - generic [ref=e184]: "1954"
+                - heading "Paris Salon (Société des Artistes Français)" [level=2] [ref=e185]
+              - generic [ref=e186]:
+                - paragraph [ref=e187]: Paris Salon
+                - paragraph [ref=e188]: Paris
+            - paragraph [ref=e189]: "Works shown: accepted"
+          - article [ref=e190]:
+            - generic [ref=e192]:
+              - generic [ref=e193]:
+                - generic [ref=e195]: "1956"
+                - heading "Paris Salon (Société des Artistes Français)" [level=2] [ref=e196]
+              - generic [ref=e197]:
+                - paragraph [ref=e198]: Paris Salon
+                - paragraph [ref=e199]: Paris
+            - paragraph [ref=e200]: "Works shown: accepted"
+          - article [ref=e201]:
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - generic [ref=e206]: "1957"
+                - heading "Paris Salon (Société des Artistes Français)" [level=2] [ref=e207]
+              - generic [ref=e208]:
+                - paragraph [ref=e209]: Paris Salon
+                - paragraph [ref=e210]: Paris
+            - paragraph [ref=e211]: "Works shown: accepted"
+          - article [ref=e212]:
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - generic [ref=e216]:
+                  - generic [ref=e217]: "1958"
+                  - generic [ref=e218]: Major
+                - heading "Solo exhibition" [level=2] [ref=e219]
+              - generic [ref=e220]:
+                - paragraph [ref=e221]: Delhi
+                - paragraph [ref=e222]: Delhi
+          - article [ref=e223]:
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - generic [ref=e228]: "1958"
+                - heading "Paris Salon (Société des Artistes Français)" [level=2] [ref=e229]
+              - generic [ref=e230]:
+                - paragraph [ref=e231]: Paris Salon
+                - paragraph [ref=e232]: Paris
+            - paragraph [ref=e233]: "Works shown: accepted"
+          - article [ref=e234]:
+            - generic [ref=e236]:
+              - generic [ref=e237]:
+                - generic [ref=e239]: "1959"
+                - heading "Paris Salon (Société des Artistes Français)" [level=2] [ref=e240]
+              - generic [ref=e241]:
+                - paragraph [ref=e242]: Paris Salon
+                - paragraph [ref=e243]: Paris
+            - paragraph [ref=e244]: "Works shown: accepted"
+          - article [ref=e245]:
+            - generic [ref=e247]:
+              - generic [ref=e248]:
+                - generic [ref=e250]: "1960"
+                - heading "Paris Salon (Société des Artistes Français)" [level=2] [ref=e251]
+              - generic [ref=e252]:
+                - paragraph [ref=e253]: Paris Salon
+                - paragraph [ref=e254]: Paris
+            - paragraph [ref=e255]: "Works shown: accepted"
+          - article [ref=e256]:
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - generic [ref=e260]:
+                  - generic [ref=e261]: "2016"
+                  - generic [ref=e262]: Major
+                - heading "Nehru Centre retrospective" [level=2] [ref=e263]
+              - generic [ref=e264]:
+                - paragraph [ref=e265]: Nehru Centre
+                - paragraph [ref=e266]: London
+            - paragraph [ref=e267]: "Works shown: 40 Kashmir paintings"
+  - contentinfo [ref=e268]:
+    - generic [ref=e269]: Violet archive

@@ -1,0 +1,117 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Violet" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "Life" [ref=e8] [cursor=pointer]:
+          - /url: /life
+        - link "Gallery" [ref=e9] [cursor=pointer]:
+          - /url: /gallery
+        - link "World" [ref=e10] [cursor=pointer]:
+          - /url: /world
+        - link "Exhibitions" [ref=e11] [cursor=pointer]:
+          - /url: /exhibitions
+        - link "Archive" [ref=e12] [cursor=pointer]:
+          - /url: /archive
+        - button "Light" [ref=e13]
+  - main [ref=e14]:
+    - main [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: World
+          - heading "Violet M. Digby" [level=1] [ref=e19]
+          - paragraph [ref=e20]: An immersive map of the places that shaped her painting.
+        - generic [ref=e21]:
+          - article [ref=e22]:
+            - generic [ref=e23]:
+              - generic [ref=e24]:
+                - generic [ref=e25]:
+                  - paragraph [ref=e26]: "01"
+                  - paragraph [ref=e27]: The emotional and artistic heart of the site
+                - heading "Kashmir & Dal Lake" [level=2] [ref=e28]
+                - generic [ref=e29]:
+                  - paragraph [ref=e30]: Her houseboat on Dal Lake became a working base, and the shikara let her paint the rivers and canals in relative privacy.
+                  - paragraph [ref=e31]: After special permission from Prime Minister Nehru, she made two long visits in 1952/3 and 1957/8, returning to Srinagar's waterways again and again.
+                - generic [ref=e32]:
+                  - generic [ref=e33]: houseboat on Dal Lake
+                  - generic [ref=e34]: shikara method
+                  - generic [ref=e35]: Srinagar's canals and rivers
+                  - generic [ref=e36]: special permission from PM Nehru
+                  - generic [ref=e37]: 1952/3 and 1957/8 visits
+              - generic [ref=e40]:
+                - paragraph [ref=e41]: Painting notes
+                - list [ref=e42]:
+                  - listitem [ref=e43]: Kashmir paintings
+                  - listitem [ref=e44]: Kashmir magazine covers
+                  - listitem [ref=e45]: 40 works at the Nehru Centre, London, April 2016
+          - article [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - generic [ref=e49]:
+                  - paragraph [ref=e50]: "02"
+                  - paragraph [ref=e51]: Artist colony and cliff light
+                - heading "St Ives, Cornwall" [level=2] [ref=e52]
+                - generic [ref=e53]:
+                  - paragraph [ref=e54]: The colony of artists in St Ives drew her after the war, where she joined StISA in 1946 and owned a cottage.
+                  - paragraph [ref=e55]: The harbour, the cliffs, and the late-1950s friction between traditional and modern painters shaped the atmosphere of the place.
+                - generic [ref=e56]:
+                  - generic [ref=e57]: St Ives Society of Artists (StISA)
+                  - generic [ref=e58]: cottage she owned
+                  - generic [ref=e59]: harbour
+                  - generic [ref=e60]: cliff light
+                  - generic [ref=e61]: traditional and modern painters
+              - generic [ref=e64]:
+                - paragraph [ref=e65]: Painting notes
+                - list [ref=e66]:
+                  - listitem [ref=e67]: St Ives harbour studies
+                  - listitem [ref=e68]: coastal paintings
+                  - listitem [ref=e69]: Cornish light
+          - article [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - generic [ref=e73]:
+                  - paragraph [ref=e74]: "03"
+                  - paragraph [ref=e75]: Family, Raj, hospitality, and exhibition life
+                - heading "Bombay & Delhi" [level=2] [ref=e76]
+                - generic [ref=e77]:
+                  - paragraph [ref=e78]: Bombay anchored her childhood through her father's engineering company and the early Lowther and Kidd connection.
+                  - paragraph [ref=e79]: Delhi later held the public life of her work, including her solo exhibition in 1958, opened by Supreme Court Justice Vivian Bose, and President Rajendra Prasad's Republic Day reception.
+                - generic [ref=e80]:
+                  - generic [ref=e81]: father's engineering company
+                  - generic [ref=e82]: the Raj years
+                  - generic [ref=e83]: Hospitality League
+                  - generic [ref=e84]: solo exhibition in Delhi, 1958
+                  - generic [ref=e85]: Vivian Bose
+                  - generic [ref=e86]: Rajendra Prasad's Republic Day reception
+              - generic [ref=e89]:
+                - paragraph [ref=e90]: Painting notes
+                - list [ref=e91]:
+                  - listitem [ref=e92]: Central Provinces paintings
+                  - listitem [ref=e93]: Delhi exhibition works
+          - article [ref=e94]:
+            - generic [ref=e95]:
+              - generic [ref=e96]:
+                - generic [ref=e97]:
+                  - paragraph [ref=e98]: "04"
+                  - paragraph [ref=e99]: Interludes, study, and a planned final move
+                - heading "France, Norway & Jersey" [level=2] [ref=e100]
+                - generic [ref=e101]:
+                  - paragraph [ref=e102]: St Jacut de la Mer in Brittany formed a childhood interlude in 1907, and Fontainebleau returned as a place of study in 1939.
+                  - paragraph [ref=e103]: Paris accepted her work annually from 1950 to 1960 except 1955, Simon joined her on a painting trip to Norway in 1950, and Jersey remained the move that was planned but never completed.
+                - generic [ref=e104]:
+                  - generic [ref=e105]: St Jacut de la Mer, Brittany (1907)
+                  - generic [ref=e106]: École des Beaux-Arts Fontainebleau (1939)
+                  - generic [ref=e107]: Paris Salon, 1950–1960 except 1955
+                  - generic [ref=e108]: painting trip to Norway with Simon (1950)
+                  - generic [ref=e109]: planned move to Jersey
+              - generic [ref=e112]:
+                - paragraph [ref=e113]: Painting notes
+                - list [ref=e114]:
+                  - listitem [ref=e115]: Paris Salon submissions
+                  - listitem [ref=e116]: Norway painting trip
+                  - listitem [ref=e117]: Jersey planning period
+  - contentinfo [ref=e118]:
+    - generic [ref=e119]: Violet archive

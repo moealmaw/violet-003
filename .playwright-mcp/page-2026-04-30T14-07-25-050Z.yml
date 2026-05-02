@@ -1,0 +1,54 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Violet" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "Life" [ref=e8] [cursor=pointer]:
+          - /url: /life
+        - link "Gallery" [ref=e9] [cursor=pointer]:
+          - /url: /gallery
+        - link "World" [ref=e10] [cursor=pointer]:
+          - /url: /world
+        - link "Exhibitions" [ref=e11] [cursor=pointer]:
+          - /url: /exhibitions
+        - link "Archive" [ref=e12] [cursor=pointer]:
+          - /url: /archive
+        - button "Light" [ref=e13]
+  - main [ref=e14]:
+    - main [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: Gallery
+          - heading "Violet M. Digby" [level=1] [ref=e19]
+          - paragraph [ref=e20]: Paintings arranged by series, with a simple column masonry layout.
+        - generic [ref=e21]:
+          - button "Kashmir" [ref=e22]
+          - button "Cornwall & St Ives" [ref=e23]
+          - button "Central Provinces & South of France" [ref=e24]
+          - button "Pastels & Oils" [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "Kashmir" [level=2] [ref=e28]
+            - paragraph [ref=e29]: Forty Kashmir paintings were exhibited at the Nehru Centre, London, in April 2016. Some appeared on the cover of Kashmir magazine.
+          - generic [ref=e30]:
+            - button "Kashmir magazine cover, March 1953 1953 · oil" [ref=e31]:
+              - generic [ref=e34]:
+                - paragraph [ref=e35]: Kashmir magazine cover, March 1953
+                - paragraph [ref=e36]: 1953 · oil
+            - button "Kashmir magazine cover, June 1953 1953 · oil" [ref=e37]:
+              - generic [ref=e40]:
+                - paragraph [ref=e41]: Kashmir magazine cover, June 1953
+                - paragraph [ref=e42]: 1953 · oil
+            - button "Untitled 1952/3 · oil" [ref=e43]:
+              - generic [ref=e46]:
+                - paragraph [ref=e47]: Untitled
+                - paragraph [ref=e48]: 1952/3 · oil
+            - button "Untitled 1957/8 · oil" [ref=e49]:
+              - generic [ref=e52]:
+                - paragraph [ref=e53]: Untitled
+                - paragraph [ref=e54]: 1957/8 · oil
+  - contentinfo [ref=e55]:
+    - generic [ref=e56]: Violet archive

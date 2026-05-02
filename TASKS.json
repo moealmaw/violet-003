@@ -1,0 +1,92 @@
+[
+  {
+    "id": "SETUP-001",
+    "task": "Initialize data.ts with all mock data, types, and constants from the prompt",
+    "status": "completed",
+    "verification": "Check data.ts for complete biographical data, exhibition records, and painting metadata."
+  },
+  {
+    "id": "SETUP-002",
+    "task": "Configure Tailwind CSS with the chosen grayscale palette and theme colors",
+    "status": "completed",
+    "verification": "Verify tailwind.config.js and globals.css for consistent color definitions."
+  },
+  {
+    "id": "SETUP-003",
+    "task": "Setup React Router and define the main route structure",
+    "status": "completed",
+    "verification": "Verify App.tsx or main entry point for correct route definitions and layout wrapping."
+  },
+  {
+    "id": "COMP-001",
+    "task": "Implement atomic UI components (Button, Input, Chip, etc.) using shadcn/ui",
+    "status": "completed",
+    "verification": "Check /components/ui/ for implemented components with data-testid."
+  },
+  {
+    "id": "COMP-002",
+    "task": "Implement the Navigation Bar and Footer",
+    "status": "completed",
+    "verification": "Verify nav and footer are visible and functional on all pages."
+  },
+  {
+    "id": "PAGE-001",
+    "task": "Implement Home Page (/) with hero reveal and featured tiles",
+    "status": "completed",
+    "verification": "Verify 100vh hero, animations, and links to other pages."
+  },
+  {
+    "id": "PAGE-002",
+    "task": "Implement Biography Page (/life) with chapter navigation",
+    "status": "completed",
+    "verification": "Verify sticky navigation and all five life chapters with correct content."
+  },
+  {
+    "id": "PAGE-003",
+    "task": "Implement Gallery Page (/gallery) with masonry grid and lightbox",
+    "status": "completed",
+    "verification": "Verify thematic tabs, masonry layout, and functional lightbox with metadata."
+  },
+  {
+    "id": "PAGE-004",
+    "task": "Implement World Page (/world) with location panels and transitions",
+    "status": "completed",
+    "verification": "Verify all four location panels and smooth transitions between them."
+  },
+  {
+    "id": "PAGE-005",
+    "task": "Implement Exhibitions Page (/exhibitions) with chronological record",
+    "status": "completed",
+    "verification": "Verify timeline/table layout and all key exhibition entries."
+  },
+  {
+    "id": "PAGE-006",
+    "task": "Implement Archive Page (/archive) with legacy info and catalogue block",
+    "status": "completed",
+    "verification": "Verify SDMC info, catalogue book block, and external links."
+  },
+  {
+    "id": "PAGE-007",
+    "task": "Implement About Page (/about)",
+    "status": "completed",
+    "verification": "Verify purpose statement and credits."
+  },
+  {
+    "id": "THEME-001",
+    "task": "Implement Light/Dark mode toggle and ensure consistent rendering",
+    "status": "completed",
+    "verification": "Toggle theme and check all components for color contrast and visibility."
+  },
+  {
+    "id": "RESP-001",
+    "task": "Ensure full responsiveness across all pages and components",
+    "status": "completed",
+    "verification": "Test on mobile, tablet, and desktop screen sizes."
+  },
+  {
+    "id": "FINAL-001",
+    "task": "Run final verification: lsp_diagnostics, build, and data-testid check",
+    "status": "completed",
+    "verification": "Build succeeds and all components have data-testid."
+  }
+]

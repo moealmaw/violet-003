@@ -1,0 +1,46 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Violet" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "Life" [ref=e8] [cursor=pointer]:
+          - /url: /life
+        - link "Gallery" [ref=e9] [cursor=pointer]:
+          - /url: /gallery
+        - link "World" [ref=e10] [cursor=pointer]:
+          - /url: /world
+        - link "Exhibitions" [ref=e11] [cursor=pointer]:
+          - /url: /exhibitions
+        - link "Archive" [ref=e12] [cursor=pointer]:
+          - /url: /archive
+        - button "Dark" [ref=e13]
+  - main [ref=e14]:
+    - main [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: About
+          - heading "Transparency & attribution" [level=1] [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - paragraph [ref=e22]: This site commemorates Violet M. Digby's life and work.
+            - paragraph [ref=e23]: Biographical and archival information is credited to the Simon Digby Memorial Charity.
+            - paragraph [ref=e24]: The Wikipedia article and the 2014 catalogue are primary sources for the public record.
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - paragraph [ref=e27]: Credits
+              - paragraph [ref=e28]: For inquiries, use the Simon Digby Memorial Charity link in the archive section.
+            - generic [ref=e29]:
+              - paragraph [ref=e30]: Sources
+              - paragraph [ref=e31]: Simon Digby Memorial Charity, Wikipedia article, 2014 catalogue
+            - generic [ref=e32]:
+              - paragraph [ref=e33]: Rights
+              - paragraph [ref=e34]: Image rights and archival access are governed by the archive.
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: Inquiry
+            - link "Simon Digby Memorial Charity" [ref=e37] [cursor=pointer]:
+              - /url: https://www.simon-digby-memorial-charity.org.uk
+  - contentinfo [ref=e38]:
+    - generic [ref=e39]: Violet archive

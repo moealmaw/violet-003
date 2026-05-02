@@ -1,0 +1,422 @@
+import type { SiteData } from "../types/types";
+
+const data = {
+  navigation: [
+    { label: "Home", href: "/" },
+    { label: "Life", href: "/life" },
+    { label: "Gallery", href: "/gallery" },
+    { label: "World", href: "/world" },
+    { label: "Exhibitions", href: "/exhibitions" },
+    { label: "Archive", href: "/archive" },
+  ],
+  home: {
+    heroImageAlt: "Painterly landscape evoking Kashmir or St Ives at dawn",
+    name: "Violet M. Digby",
+    subtitle: "British Artist · 1900–1960 · St Ives · Kashmir",
+    scrollInvitation: "Scroll",
+    introParagraphs: [
+      "She painted from shikaras on Kashmir's canals, from the cliffs of Cornwall, and from the salons of Paris.",
+      "Her life moved between colonial India, post-war Britain, and the quiet discipline of the studio, leaving a body of work that feels intimate, luminous, and still.",
+    ],
+    featureTiles: [
+      {
+        id: "life",
+        label: "Life",
+        description: "A measured biography of origins, marriage, loss, and the final chapter.",
+        href: "/life",
+        imageAlt: "Biographical portrait area for Violet M. Digby",
+      },
+      {
+        id: "gallery",
+        label: "Gallery",
+        description: "Kashmir, Cornwall, India, and the pastel-and-oil studio record.",
+        href: "/gallery",
+        imageAlt: "Paintings grouped by series and medium",
+      },
+      {
+        id: "world",
+        label: "World",
+        description: "A geography of Dal Lake, St Ives, Bombay, Delhi, Europe, and Jersey.",
+        href: "/world",
+        imageAlt: "Map-like view of the places that shaped her work",
+      },
+    ],
+    footerNote: "violet-digby.com · archive note for Jersey",
+    footerLinks: [
+      {
+        label: "Simon Digby Memorial Charity",
+        href: "https://www.simon-digby-memorial-charity.org.uk",
+      },
+      {
+        label: "Archive in Jersey",
+        href: "https://www.simon-digby-memorial-charity.org.uk",
+      },
+    ],
+  },
+  biography: {
+    chapters: [
+      {
+        id: "origins",
+        title: "Origins",
+        yearRange: "1900–1914",
+        placeLabel: "Plymouth & Bombay",
+        narrativeParagraphs: [
+          "Violet M. Digby, née Kidd, was born in 1900. Her father, William Kidd, was a Scottish draftsman-engineer, and the family moved to Bombay when she was five.",
+          "The work of the engineering company Lowther and Kidd, the family's European interlude with the Carnell family in Brittany in 1907, and the aircraft factory years in England in 1914 formed the early geography of her life.",
+        ],
+        quote: "Painting had been a leisure pursuit in her family for many generations.",
+        highlights: [
+          "William Kidd, a Scottish draftsman-engineer",
+          "Lowther and Kidd",
+          "Carnell family in Brittany (1907)",
+          "aircraft factory years in England (1914)",
+        ],
+        timelineEntries: ["Plymouth", "Bombay", "Brittany", "England"],
+      },
+      {
+        id: "youth",
+        title: "Youth",
+        yearRange: "1920s",
+        placeLabel: "Roaring Twenties & Art School",
+        narrativeParagraphs: [
+          "She studied at Hastings College of Art under Leslie Badham and Philip Cole, and later at the Slade School of Fine Art.",
+          "The decade carried her through golf, tennis, skiing, dancing, suitors, and letters: a social world that was warm, lively, and sought-after.",
+        ],
+        quote: "She was the object of a number of suitors in her busy schedule of art school, golf, tennis, skiing, and dancing.",
+        highlights: [
+          "Hastings College of Art",
+          "Leslie Badham",
+          "Philip Cole",
+          "Slade School of Fine Art",
+        ],
+      },
+      {
+        id: "india",
+        title: "India",
+        yearRange: "1926–1944",
+        placeLabel: "The Raj Years & Marriage",
+        narrativeParagraphs: [
+          "Kenelm George Digby proposed multiple times before she finally accepted in 1926, and she returned to India as a senior Memsahib of the Raj.",
+          "A dozen or so paintings survive from the Central Provinces and South of France. Venetia was born in 1930 and died in infancy; Simon was born in 1932. She studied with André Strauss at École des Beaux-Arts and attended Fontainebleau summer school in 1939, while the Hospitality League occupied the war years. Kenelm died suddenly of apoplexy in 1944.",
+        ],
+        callout: "Many paintings were lost on her return from India after World War Two.",
+        highlights: [
+          "Kenelm George Digby",
+          "senior Memsahib of the Raj",
+          "Venetia (1930–1930)",
+          "Simon (born 1932)",
+          "André Strauss",
+          "École des Beaux-Arts",
+          "Fontainebleau summer school (1939)",
+          "Hospitality League",
+          "1944 apoplexy",
+        ],
+      },
+      {
+        id: "st-ives",
+        title: "St Ives",
+        yearRange: "1946–1960",
+        placeLabel: "St Ives Colony",
+        narrativeParagraphs: [
+          "Drawn to the colony of artists in St Ives, Cornwall, she joined the St Ives Society of Artists in 1946 and owned a cottage there.",
+          "She painted in Norway with Simon in 1950, wrote to Prime Minister Jawaharlal Nehru to request access to Kashmir, and received a reply within a fortnight. Two long stays on a houseboat on Dal Lake followed in 1952/3 and 1957/8, where she painted from a shikara on rivers and canals. Kashmir paintings later appeared on the cover of Kashmir magazine.",
+          "Her exhibitions ranged across StISA, the Paris Salon, the Pastel Society, the Royal Institute of Oil Painters, Delhi, and the Nehru Centre; she also planned to move to Jersey with her brother Lewis and sister-in-law Enid Carnell.",
+        ],
+        quote: "She often avoided unwanted attention by painting from a shikara on the rivers and canals.",
+        highlights: [
+          "St Ives Society of Artists (StISA) membership, 1946",
+          "painting trip to Norway with Simon, 1950",
+          "letter to Prime Minister Jawaharlal Nehru",
+          "houseboat on Dal Lake, 1952/3 and 1957/8",
+          "Kashmir magazine covers",
+          "planned move to Jersey",
+        ],
+        timelineEntries: [
+          "1946: joins StISA",
+          "1950: Norway with Simon",
+          "1952/3: first long stay on Dal Lake",
+          "1957/8: second long stay on Dal Lake",
+          "2016: Nehru Centre retrospective",
+        ],
+      },
+      {
+        id: "end",
+        title: "The End",
+        yearRange: "September 1960",
+        placeLabel: "Final Chapter",
+        narrativeParagraphs: [
+          "Financially stretched by the Kashmir expeditions, she was involved in a minor traffic incident in London on 13 August 1960, when a child grazed a knee on her car.",
+          "A police summons followed days later. After a doctor's prescription of barbiturates, she took most of the pills on 2 September 1960, left a note to Simon, and switched on the gas.",
+        ],
+        callout: "The section remains quiet and measured, returning to the work rather than the death.",
+      },
+    ],
+  },
+  gallery: {
+    series: [
+      {
+        id: "kashmir",
+        title: "Kashmir",
+        intro:
+          "Forty Kashmir paintings were exhibited at the Nehru Centre, London, in April 2016. Some appeared on the cover of Kashmir magazine.",
+        paintings: [
+          {
+            id: "kashmir-01",
+            title: "Kashmir magazine cover, March 1953",
+            approximateYear: "1953",
+            medium: "oil",
+            contextualNote: "Painted during the Kashmir visits and later reproduced as a magazine cover.",
+            imageAlt: "Kashmir magazine cover from March 1953",
+          },
+          {
+            id: "kashmir-02",
+            title: "Kashmir magazine cover, June 1953",
+            approximateYear: "1953",
+            medium: "oil",
+            contextualNote: "Painted during the Kashmir visits and later reproduced as a magazine cover.",
+            imageAlt: "Kashmir magazine cover from June 1953",
+          },
+          {
+            id: "kashmir-03",
+            title: null,
+            approximateYear: "1952/3",
+            medium: "oil",
+            contextualNote: "Painted from a shikara on Dal Lake during the first long stay.",
+            imageAlt: "Dal Lake painted from a shikara",
+          },
+          {
+            id: "kashmir-04",
+            title: null,
+            approximateYear: "1957/8",
+            medium: "oil",
+            contextualNote: "Painted from the houseboat period on Dal Lake.",
+            imageAlt: "Houseboat view on Dal Lake",
+          },
+        ],
+      },
+      {
+        id: "cornwall",
+        title: "Cornwall & St Ives",
+        intro:
+          "The St Ives years gathered the coast, the harbour, and the light of Cornwall into a quieter register.",
+        paintings: [
+          {
+            id: "cornwall-01",
+            title: null,
+            approximateYear: "1946–1960",
+            medium: "oil",
+            contextualNote: "Painted from the artist colony in St Ives.",
+            imageAlt: "St Ives harbour in Cornwall",
+          },
+          {
+            id: "cornwall-02",
+            title: null,
+            approximateYear: "1946–1960",
+            medium: "pastel",
+            contextualNote: "A coastal study shaped by the cliffs and harbour light.",
+            imageAlt: "Cornish cliffs and sea light",
+          },
+          {
+            id: "cornwall-03",
+            title: null,
+            approximateYear: "1946–1960",
+            medium: "oil",
+            contextualNote: "Made from the cottage she owned in St Ives.",
+            imageAlt: "Cottage interior in St Ives",
+          },
+        ],
+      },
+      {
+        id: "india-and-france",
+        title: "Central Provinces & South of France",
+        intro:
+          "A small surviving group from India and the South of France remains from the Raj years and their aftermath.",
+        paintings: [
+          {
+            id: "india-france-01",
+            title: null,
+            approximateYear: "1926–1944",
+            medium: "oil",
+            contextualNote: "One of the dozen or so surviving paintings from the Central Provinces.",
+            imageAlt: "Central Provinces painting",
+          },
+          {
+            id: "india-france-02",
+            title: null,
+            approximateYear: "1926–1944",
+            medium: "oil",
+            contextualNote: "A surviving South of France painting from the India period.",
+            imageAlt: "South of France landscape",
+          },
+          {
+            id: "india-france-03",
+            title: null,
+            approximateYear: "1939",
+            medium: "oil",
+            contextualNote: "Linked to her Fontainebleau summer school study with André Strauss.",
+            imageAlt: "Fontainebleau study",
+          },
+        ],
+      },
+      {
+        id: "pastels-and-oils",
+        title: "Pastels & Oils",
+        intro:
+          "A room for works where medium matters as much as subject: pastel dust, oil skin, and quick studies.",
+        paintings: [
+          {
+            id: "medium-01",
+            title: null,
+            approximateYear: null,
+            medium: "pastel",
+            contextualNote: "A pastel work from the later studio years.",
+            imageAlt: "Pastel study on laid paper",
+          },
+          {
+            id: "medium-02",
+            title: null,
+            approximateYear: null,
+            medium: "oil",
+            contextualNote: "An oil painting from the later studio years.",
+            imageAlt: "Oil painting with warm neutral tones",
+          },
+        ],
+      },
+    ],
+  },
+  world: {
+    locations: [
+      {
+        id: "kashmir-dal-lake",
+        title: "Kashmir & Dal Lake",
+        subtitle: "The emotional and artistic heart of the site",
+        description: [
+          "Her houseboat on Dal Lake became a working base, and the shikara let her paint the rivers and canals in relative privacy.",
+          "After special permission from Prime Minister Nehru, she made two long visits in 1952/3 and 1957/8, returning to Srinagar's waterways again and again.",
+        ],
+        details: [
+          "houseboat on Dal Lake",
+          "shikara method",
+          "Srinagar's canals and rivers",
+          "special permission from PM Nehru",
+          "1952/3 and 1957/8 visits",
+        ],
+        paintingNotes: ["Kashmir paintings", "Kashmir magazine covers", "40 works at the Nehru Centre, London, April 2016"],
+      },
+      {
+        id: "st-ives-cornwall",
+        title: "St Ives, Cornwall",
+        subtitle: "Artist colony and cliff light",
+        description: [
+          "The colony of artists in St Ives drew her after the war, where she joined StISA in 1946 and owned a cottage.",
+          "The harbour, the cliffs, and the late-1950s friction between traditional and modern painters shaped the atmosphere of the place.",
+        ],
+        details: [
+          "St Ives Society of Artists (StISA)",
+          "cottage she owned",
+          "harbour",
+          "cliff light",
+          "traditional and modern painters",
+        ],
+        paintingNotes: ["St Ives harbour studies", "coastal paintings", "Cornish light"],
+      },
+      {
+        id: "bombay-delhi",
+        title: "Bombay & Delhi",
+        subtitle: "Family, Raj, hospitality, and exhibition life",
+        description: [
+          "Bombay anchored her childhood through her father's engineering company and the early Lowther and Kidd connection.",
+          "Delhi later held the public life of her work, including her solo exhibition in 1958, opened by Supreme Court Justice Vivian Bose, and President Rajendra Prasad's Republic Day reception.",
+        ],
+        details: [
+          "father's engineering company",
+          "the Raj years",
+          "Hospitality League",
+          "solo exhibition in Delhi, 1958",
+          "Vivian Bose",
+          "Rajendra Prasad's Republic Day reception",
+        ],
+        paintingNotes: ["Central Provinces paintings", "Delhi exhibition works"],
+      },
+      {
+        id: "europe",
+        title: "France, Norway & Jersey",
+        subtitle: "Interludes, study, and a planned final move",
+        description: [
+          "St Jacut de la Mer in Brittany formed a childhood interlude in 1907, and Fontainebleau returned as a place of study in 1939.",
+          "Paris accepted her work annually from 1950 to 1960 except 1955, Simon joined her on a painting trip to Norway in 1950, and Jersey remained the move that was planned but never completed.",
+        ],
+        details: [
+          "St Jacut de la Mer, Brittany (1907)",
+          "École des Beaux-Arts Fontainebleau (1939)",
+          "Paris Salon, 1950–1960 except 1955",
+          "painting trip to Norway with Simon (1950)",
+          "planned move to Jersey",
+        ],
+        paintingNotes: ["Paris Salon submissions", "Norway painting trip", "Jersey planning period"],
+      },
+    ],
+  },
+  exhibitions: {
+    entries: [
+      { year: "1946–1960", exhibitionName: "St Ives Society of Artists (StISA) exhibitions", venue: "St Ives Society of Artists", city: "St Ives", worksShown: null, highlight: true },
+      { year: "1950", exhibitionName: "Royal Institute of Oil Painters", venue: "Royal Institute of Oil Painters", city: "London", worksShown: "1 piece" },
+      { year: "1950", exhibitionName: "Paris Salon (Société des Artistes Français)", venue: "Paris Salon", city: "Paris", worksShown: "accepted" , highlight: true },
+      { year: "1951", exhibitionName: "StISA Festival of Britain Exhibition", venue: "St Ives Society of Artists", city: "Touring exhibition", worksShown: "toured May–September" , highlight: true },
+      { year: "1951", exhibitionName: "Royal Institute of Oil Painters", venue: "Royal Institute of Oil Painters", city: "London", worksShown: "3 pieces" },
+      { year: "1951", exhibitionName: "Joint exhibition with Simon Digby", venue: "Piazza Studios", city: "St Ives", worksShown: null },
+      { year: "1951", exhibitionName: "The Pastel Society", venue: "The Pastel Society", city: "Toured northern England", worksShown: "3 pieces" },
+      { year: "1951", exhibitionName: "Paris Salon (Société des Artistes Français)", venue: "Paris Salon", city: "Paris", worksShown: "accepted" },
+      { year: "1952", exhibitionName: "The Pastel Society", venue: "The Pastel Society", city: "United Kingdom", worksShown: "4 pieces" },
+      { year: "1952", exhibitionName: "Paris Salon (Société des Artistes Français)", venue: "Paris Salon", city: "Paris", worksShown: "accepted" },
+      { year: "1953", exhibitionName: "Joint exhibition with Serbjeet Singh", venue: "Delhi", city: "Delhi", worksShown: null },
+      { year: "1953", exhibitionName: "The Pastel Society", venue: "The Pastel Society", city: "United Kingdom", worksShown: "1 piece" },
+      { year: "1953", exhibitionName: "Kashmir magazine covers", venue: "Kashmir magazine", city: "Kashmir", worksShown: "March 1953, June 1953", highlight: true },
+      { year: "1953", exhibitionName: "Paris Salon (Société des Artistes Français)", venue: "Paris Salon", city: "Paris", worksShown: "accepted" },
+      { year: "1954", exhibitionName: "Paris Salon (Société des Artistes Français)", venue: "Paris Salon", city: "Paris", worksShown: "accepted" },
+      { year: "1956", exhibitionName: "Paris Salon (Société des Artistes Français)", venue: "Paris Salon", city: "Paris", worksShown: "accepted" },
+      { year: "1957", exhibitionName: "Paris Salon (Société des Artistes Français)", venue: "Paris Salon", city: "Paris", worksShown: "accepted" },
+      { year: "1958", exhibitionName: "Solo exhibition", venue: "Delhi", city: "Delhi", worksShown: null, highlight: true },
+      { year: "1958", exhibitionName: "Paris Salon (Société des Artistes Français)", venue: "Paris Salon", city: "Paris", worksShown: "accepted" },
+      { year: "1959", exhibitionName: "Paris Salon (Société des Artistes Français)", venue: "Paris Salon", city: "Paris", worksShown: "accepted" },
+      { year: "1960", exhibitionName: "Paris Salon (Société des Artistes Français)", venue: "Paris Salon", city: "Paris", worksShown: "accepted" },
+      { year: "2016", exhibitionName: "Nehru Centre retrospective", venue: "Nehru Centre", city: "London", worksShown: "40 Kashmir paintings", highlight: true },
+    ],
+  },
+  archive: {
+    description: [
+      "The Simon Digby Memorial Charity in Jersey, Channel Islands, holds her papers and works.",
+      "Access to the archive is by appointment.",
+    ],
+    featuredCatalogue: {
+      title: "Violet M. Digby: A St Ives Painter in Kashmir",
+      editor: "Antiochus Omissi",
+      year: "2015",
+      publisher: "Simon Digby Memorial Charity",
+      isbn: "978-0-9929615-0-3",
+      description: "A biographical catalogue presented as the core reference for her life and work.",
+    },
+    simonDigbyNote:
+      "Her son Simon Digby (1932–) became an oriental scholar, and the charity is named in his memory.",
+    nehruCentreNote:
+      "The 2016 Nehru Centre exhibition was the first major posthumous show since 1960.",
+    externalLinks: [
+      { label: "The Pastel Society", href: "https://www.thepastsociety.org" },
+      { label: "Royal Institute of Oil Painters", href: "https://www.royalinstituteofoilpainters.org.uk" },
+      { label: "St Ives Society of Artists", href: "https://www.stisa.org.uk" },
+      { label: "Nehru Centre", href: "https://www.nehru-centre.org.uk" },
+    ],
+  },
+  about: {
+    purpose: [
+      "This site commemorates Violet M. Digby's life and work.",
+      "Biographical and archival information is credited to the Simon Digby Memorial Charity.",
+      "The Wikipedia article and the 2014 catalogue are primary sources for the public record.",
+    ],
+    sources: ["Simon Digby Memorial Charity", "Wikipedia article", "2014 catalogue"],
+    imageRightsNote: "Image rights and archival access are governed by the archive.",
+    contactPointer: "For inquiries, use the Simon Digby Memorial Charity link in the archive section.",
+  },
+} satisfies SiteData;
+
+export default data;
